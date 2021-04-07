@@ -15,7 +15,7 @@ if d < 0
   print 'Корней нет'
 elsif d == 0
   x = -b / 2 * a
-  print "x = #{x}, дискриминант = #{discriminant} "
+  print "x = #{x}, дискриминант = #{d} "
 else
   x1 = (-b + Math.sqrt(d)) / (2 * a)
   x2 = (-b - Math.sqrt(d)) / (2 * a)
