@@ -1,12 +1,12 @@
 #Прямоугольный треугольник
 
-print "Введите 1ую сторону треугольника: "
+print 'Введите 1ую сторону треугольника: '
 side_one = gets.chomp.to_i
 
-print "Введите 2ую сторону треугольника: "
+print 'Введите 2ую сторону треугольника: '
 side_two = gets.chomp.to_i
 
-print "Введите 3юю сторону треугольника: "
+print 'Введите 3юю сторону треугольника: '
 side_three = gets.chomp.to_i
 
 triangle_sides = [side_one, side_two, side_three].sort
@@ -16,12 +16,12 @@ is_isosceles_triangle = side_one == side_two || side_two == side_three || side_o
 is_equilateral_triangle = side_one == side_two && side_two == side_three
 
 if is_pythagorean_triangle
-  print "Ваш треугольник - прямоугольный"
+  print 'Ваш треугольник - прямоугольный'
 elsif is_equilateral_triangle
-  print "Ваш треугольник - равнобедренный и равносторонний"
+  print 'Ваш треугольник - равнобедренный и равносторонний'
 elsif is_isosceles_triangle
-  print "Ваш треугольник - равнобедренный"
+  print 'Ваш треугольник - равнобедренный'
 else
-  print "Ваш треугольник - не прямоугольный, не равнобедренный, не равносторонний"
+  print 'Ваш треугольник - не прямоугольный, не равнобедренный, не равносторонний'
 end
 

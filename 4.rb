@@ -1,18 +1,18 @@
 #Квадратное уравнение
 
-print "Введите коэффициент a: "
+print 'Введите коэффициент a: '
 a = gets.chomp.to_i
 
-print "Введите коэффициент b: "
+print 'Введите коэффициент b: '
 b = gets.chomp.to_i
 
-print "Введите коэффициент c: "
+print 'Введите коэффициент c: '
 c = gets.chomp.to_i
 
 d = (b ** 2) - (4 * a * c)
 
 if d < 0
-  print "Корней нет"
+  print 'Корней нет'
 elsif d == 0
   x = -b / 2 * a
   print "x = #{x}, дискриминант = #{discriminant} "
