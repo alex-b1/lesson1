@@ -4,7 +4,7 @@ print "Введите ваше имя: "
 mane = gets.chomp
 
 print "Введите свой рост: "
-height = Integer(gets.chomp)
+height = gets.chomp.to_i
 
 normal_weight = ((height - 110) * 1.15).round
 

@@ -1,13 +1,13 @@
 #Квадратное уравнение
 
 print "Введите коэффициент a: "
-a = Integer(gets.chomp)
+a = gets.chomp.to_i
 
 print "Введите коэффициент b: "
-b = Integer(gets.chomp)
+b = gets.chomp.to_i
 
 print "Введите коэффициент c: "
-c = Integer(gets.chomp)
+c = gets.chomp.to_i
 
 d = (b ** 2) - (4 * a * c)
 
